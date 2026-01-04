@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "email": "dummy.user1@yopmail.com",
+        "password": "Test@123",
+        "expected": "FAIL"
+    },
+    {
+        "id": 2,
+        "email": "dummy.user2@yopmail.com",
+        "password": "Invalid@456",
+        "expected": "FAIL"
+    },
+    {
+        "id": 3,
+        "email": "dummy.user3@yopmail.com",
+        "password": "Test@789",
+        "expected": "FAIL"
+    },
+    {
+        "id": 4,
+        "email": "",
+        "password": "Test@1234",
+        "expected": "FAIL"
+    },
+    {
+        "id": 5,
+        "email": "dummy.user4@yopmail.com",
+        "password": "",
+        "expected": "FAIL"
+    },
+    {
+        "id": 6,
+        "email": "",
+        "password": "",
+        "expected": "FAIL"
+    },
+    {
+        "id": 7,
+        "email": "papreigizoja-5622@yopmail.com",
+        "password": "Test@1234",
+        "expected": "PASS"
+    }
+]
