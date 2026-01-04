@@ -11,7 +11,7 @@ test.describe('Login functionality validation using Decision Table technique', a
                 await page.goto('https://freelance-learn-automation.vercel.app/login');
                 await page.locator('input[type="email"]').fill(data.email);
                 await page.locator('input[type="password"]').fill(data.password);
-                await page.locator('button[type="submit"]').click();
+                await page.locator('.submit-btn').click();
 
                 // Validate error message for invalid login attempts
                 if (data.expected == 'FAIL') {
